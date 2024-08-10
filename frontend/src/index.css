@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Nunito&display=swap");
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.kalam {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 22.32px;
+  text-align: left;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.kumbh-sans {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 42px;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+}
+
+.and {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #ffa465;
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 64.49px;
+  text-align: left;
+}
+
+.nunito {
+  /* font-family: "Nunito"; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.nunito-but {
+  /* font-family: "Nunito"; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.navbar {
+  position: absolute;
+}
+
+.white-box {
+  position: relative;
+  background-color: white;
+  width: 778px;
+  height: 87%;
+  top: 100px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  border: 19px solid white;
+}
+
+.brand {
+  width: 62px;
+  height: 51px;
+  top: 37px;
+  left: 49px;
+  gap: 0px;
+  opacity: 0px;
+}
+.textContainer {
+  background-color: white;
+  width: 36%;
+  height: 100vh;
+  /* top: 376px;
+  left: 49px; */
+  gap: 36px;
+  opacity: 0px;
+}
+
+.imageContainer {
+  background-color: #f7d9c4;
+  width: 64%;
+  height: 100vh;
+  left: 36%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.model {
+  position: relative;
+  top: -18%;
+  /* width: 730px;
+  height: 862px; */
+  gap: 0px;
+  /* border: 19px solid white; */
+  opacity: 0px;
+}
