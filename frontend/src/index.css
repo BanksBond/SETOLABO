@@ -52,6 +52,15 @@
   font-style: normal;
 }
 
+.nunito-prof {
+  /* font-family: "Nunito"; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  font-style: normal;
+}
+
 .nunito-but {
   /* font-family: "Nunito"; */
   font-optical-sizing: auto;
@@ -63,6 +72,10 @@
 
 .navbar {
   position: absolute;
+}
+
+.active {
+  font-weight: 600;
 }
 
 .white-box {

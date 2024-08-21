@@ -21,7 +21,6 @@
 .react-calendar__tile {
   padding: 10px;
   text-align: center;
-  /* background-color: #f3f3f3; */
   border-radius: 50%;
   transition: background-color 0.2s ease-in-out;
   font-size: 16px;
@@ -38,7 +37,8 @@
 
 .date-input {
   padding: 10px;
-  width: 200px;
+  width: 270px;
+  height: 42px;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
